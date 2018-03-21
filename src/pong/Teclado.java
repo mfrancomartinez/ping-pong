@@ -5,7 +5,10 @@
  */
 package pong;
 
-import java.awt.event.*;
+
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+
 
 public class Teclado extends KeyAdapter {//permite trabajar con eventos de teclado y detectar si una tecla ha sido presionanada o no.
     static boolean w,s,up,down;//variables con las que movemos las raquetas
