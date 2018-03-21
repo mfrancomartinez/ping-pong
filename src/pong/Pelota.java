@@ -24,9 +24,7 @@ public class Pelota {
     public void mover(Rectangle limites){
         x+=a;
         y+=b;
-        if(x>limites.getMaxX()){
-         a=-a;   
-        }
+        
          if(y>limites.getMaxY()){
          b=-b;   
         }
