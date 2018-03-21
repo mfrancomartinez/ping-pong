@@ -19,6 +19,7 @@ public class Ventana extends JFrame{
         add(lamina);
         hilo=new Hilo(lamina);
         hilo.start();
+        lamina.actualizar();
    
          
     }
